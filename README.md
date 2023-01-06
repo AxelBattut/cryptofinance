@@ -1,5 +1,16 @@
 # Bitcoin Simulation Scripts
 
+## Selfish Mining 
+Here is the strategy we adopted : 
+S mines a block on top of the last block of the official blockchain.
+If H mines a block before S, S goes back to the beginning of the cycle (end of the current cycle).
+If S mines a block first, S continues to secretly mine on top of her own secret block.
+If S mines a block first but H mines a block before S can mine a second one, S immediately broadcasts her secret block. A competition between the two blocks follows. After the competition is resolved, S goes back to the beginning of the cycle (end of the current cycle).
+If S mines two blocks in a row, S continues to secretly mine on top of her own secret fork.
+When the number of blocks mined by S falls behind the number mined by H by only 1, S broadcasts her entire secret fork (end of the current cycle).
+
+Here is the results obtained, we see constant improvements and interesting results adoption this selfish mining strategy. 
+<img width="492" alt="selfish_mining" src="https://user-images.githubusercontent.com/72081305/211069623-36547bd9-e3ed-4ff6-a703-829e198a951d.PNG">
 ## Optimal Mining 
 Here is a graphical simulation that can be obtained with the script cryptofinance_optimal_mining.ipynb
  <img width="511" alt="optimal_mining" src="https://user-images.githubusercontent.com/72081305/211068477-4bf41665-1ce2-4a2f-a9ce-69086cd870b6.PNG">
