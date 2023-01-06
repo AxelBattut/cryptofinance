@@ -19,10 +19,18 @@ We notice that the curve grows after 0.4, So, we have E(0, 0, n, q, q) > 0 for q
 
 ## One plus Two
 In this simumlation we obtained two graphics : one that we simulated, and another theorical that is supposed to follow the same pattern obtained in the one we simulated.
+
+
 Here is the Graphical Simulation.
-<img width="458" alt="one+two_simulation" src="https://user-images.githubusercontent.com/72081305/211070390-f589987e-ce74-48d2-92f4-d3a5d2376853.PNG">
+
+
+ <img width="458" alt="one+two_simulation" src="https://user-images.githubusercontent.com/72081305/211070390-f589987e-ce74-48d2-92f4-d3a5d2376853.PNG">
+
+
 Here is the Theorical Simulation.
-<img width="430" alt="one+two_theorical" src="https://user-images.githubusercontent.com/72081305/211070401-1a32a09a-28c6-4da7-b91e-1ac57199a791.PNG">
+
+
+ <img width="430" alt="one+two_theorical" src="https://user-images.githubusercontent.com/72081305/211070401-1a32a09a-28c6-4da7-b91e-1ac57199a791.PNG">
 
 We find a very high correlation between these two graphics.
 
