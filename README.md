@@ -1,4 +1,5 @@
 # Bitcoin Simulation Scripts
 
 ## Optimal Mining 
-<img width="243" alt="optimal_mining" src="https://user-images.githubusercontent.com/72081305/211068284-d1e370b1-e146-42ad-9211-bae72e2fbb90.PNG">
+ <img width="511" alt="optimal_mining" src="https://user-images.githubusercontent.com/72081305/211068477-4bf41665-1ce2-4a2f-a9ce-69086cd870b6.PNG">
+
