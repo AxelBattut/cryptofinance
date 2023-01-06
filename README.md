@@ -16,3 +16,13 @@ Here is a graphical simulation that can be obtained with the script cryptofinanc
  <img width="511" alt="optimal_mining" src="https://user-images.githubusercontent.com/72081305/211068477-4bf41665-1ce2-4a2f-a9ce-69086cd870b6.PNG">
 
 We notice that the curve grows after 0.4, So, we have E(0, 0, n, q, q) > 0 for q >= 0.42 in this simulation
+
+## One plus Two
+In this simumlation we obtained two graphics : one that we simulated, and another theorical that is supposed to follow the same pattern obtained in the one we simulated.
+Here is the Graphical Simulation.
+<img width="458" alt="one+two_simulation" src="https://user-images.githubusercontent.com/72081305/211070390-f589987e-ce74-48d2-92f4-d3a5d2376853.PNG">
+Here is the Theorical Simulation.
+
+
+We find a very high correlation between these two graphics.
+<img width="430" alt="one+two_theorical" src="https://user-images.githubusercontent.com/72081305/211070401-1a32a09a-28c6-4da7-b91e-1ac57199a791.PNG">
